@@ -1,0 +1,55 @@
+Internship Assignment  (MERN Stack)
+
+Create a full-stack login/authorization app with CRUD operation using the MERN stack (MongoDB, Express and Node for backend, and React for our frontend). You can also use Redux/Mobx for state management of React components. Application will be used to manage data of teachers and students of school. 
+
+Application will allow users to-
+
+Authentication - 
+Register
+Log in
+Stay logged in when they close the app or refresh the page
+Log out
+
+CRUD - 
+Implement one CRUD operation for Teachers. 
+where, 
+teachers = {
+name : string,
+subject:  string.
+phoneNum: integer,
+address : string,
+class: array of  integers ( t to 12)   // [  1,2,3,4 ]
+} 
+Implement one CRUD operation for Students. 
+where, 
+students = {
+name : string,
+rollNum ; integer
+fatherName:  string.
+phoneNum: integer,
+address : string,
+class: integer 1 to 12
+} 
+
+
+
+Pages Information - 
+Register
+Log in
+Teachers Dashboard -  representing tabular data of all teachers
+Edit Teachers page - to edit a particular teacher
+Students Dashboard -  representing tabular data of all students
+Edit Student page - to edit a particular student
+
+Additional Components- 
+Upper Navbar (tab to route between students and teachers and logout)
+Fixed Footer
+Use Bootstrap for all the components
+
+--------------------------------------------------------------------------------------------
+Due Time -  One Week
+Good UI -> Good  marks
+Feel free to use resources available on the internet
+--------------------------------------------------------------------------------------------
+ 					         Best of Luck 
+--------------------------------------------------------------------------------------------
